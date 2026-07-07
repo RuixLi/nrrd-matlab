@@ -1,3 +1,25 @@
+# --- MATLAB ---
+*.asv
+*.mex*
+slprj/
 
-+nrrd/private/.DS_Store
+# --- Python / tooling ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- local runs / generated output ---
+run/
+
+# --- OS / editor ---
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- env / secrets ---
+.env
